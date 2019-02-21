@@ -1,0 +1,46 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid gray;
+}
+
+.description {
+	margin: 1rem;
+	border: none;
+}
+
+.element {
+	margin: 1rem;
+	border: none;
+}
+
+.element-pair {
+	margin: 2rem;
+	border: .5px solid gray;
+}
+
+.stat-value {
+	margin: 2rem;
+	width: 100%;
+}
+
+.stat-value-pair {
+	margin: none;
+}
+
+.stat-value-pair-a {
+	float: left;
+	width: 35%;
+}
+
+.stat-value-pair-b {
+}
