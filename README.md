@@ -6,7 +6,10 @@ See running example https://randomstyle.brewerymayhem.com/
 
 ## How to run
 
-Cloud Front Pool -> S3 Static Bucket -> API Gateway -> Lambda Function
+"static-site" -> Copy to S3 Static website bucket
+"lambda" -> Create lambda function to host
+
+Cloud Front Pool -> S3 Static website Bucket -> API Gateway -> Lambda Function
 
 ## Sources
 
